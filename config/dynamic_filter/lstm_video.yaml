@@ -1,0 +1,13 @@
+DYNAMIC_FILTER:
+    LSTM_VIDEO:
+#        INPUT_SIZE: 1024
+        INPUT_SIZE: 2048
+#        INPUT_SIZE: 1000
+        NUM_LAYERS: 1
+#        NUM_LAYERS: 2
+        HIDDEN_SIZE: 256
+        BIAS: True
+        DROPOUT: 0.5
+#        DROPOUT: 0.6
+        BIDIRECTIONAL: True
+        BATCH_FIRST: True
